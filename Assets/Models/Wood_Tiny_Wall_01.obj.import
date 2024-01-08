@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bj8jg8udys8cb"
+path="res://.godot/imported/Wood_Tiny_Wall_01.obj-81554fab38c00df32aef4c8982e0d779.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Tiny_Wall_01.obj-81554fab38c00df32aef4c8982e0d779.mesh"]
+
+source_file="res://Assets/Models/Wood_Tiny_Wall_01.obj"
+dest_files=["res://.godot/imported/Wood_Tiny_Wall_01.obj-81554fab38c00df32aef4c8982e0d779.mesh", "res://.godot/imported/Wood_Tiny_Wall_01.obj-81554fab38c00df32aef4c8982e0d779.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

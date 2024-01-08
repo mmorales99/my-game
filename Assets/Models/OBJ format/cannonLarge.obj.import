@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b65lrv5ffit3a"
+path="res://.godot/imported/cannonLarge.obj-5447de8b5be504f6354b3d36062d5121.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cannonLarge.obj-5447de8b5be504f6354b3d36062d5121.mesh"]
+
+source_file="res://Assets/Models/OBJ format/cannonLarge.obj"
+dest_files=["res://.godot/imported/cannonLarge.obj-5447de8b5be504f6354b3d36062d5121.mesh", "res://.godot/imported/cannonLarge.obj-5447de8b5be504f6354b3d36062d5121.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

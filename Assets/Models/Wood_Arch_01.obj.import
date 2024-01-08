@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://uijf4b5ysgv7"
+path="res://.godot/imported/Wood_Arch_01.obj-9a32c46b57989c1f14b30e3135a90e16.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Arch_01.obj-9a32c46b57989c1f14b30e3135a90e16.mesh"]
+
+source_file="res://Assets/Models/Wood_Arch_01.obj"
+dest_files=["res://.godot/imported/Wood_Arch_01.obj-9a32c46b57989c1f14b30e3135a90e16.mesh", "res://.godot/imported/Wood_Arch_01.obj-9a32c46b57989c1f14b30e3135a90e16.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

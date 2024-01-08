@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctxgu1xg8l0fs"
+path="res://.godot/imported/stone-wall-curve.obj-1742e211c9d71e7fcf67f4a1ddbaaeba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stone-wall-curve.obj-1742e211c9d71e7fcf67f4a1ddbaaeba.mesh"]
+
+source_file="res://Assets/Models/OBJ format/stone-wall-curve.obj"
+dest_files=["res://.godot/imported/stone-wall-curve.obj-1742e211c9d71e7fcf67f4a1ddbaaeba.mesh", "res://.godot/imported/stone-wall-curve.obj-1742e211c9d71e7fcf67f4a1ddbaaeba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

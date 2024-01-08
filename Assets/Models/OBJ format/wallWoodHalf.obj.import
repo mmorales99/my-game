@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwova88hbo1pa"
+path="res://.godot/imported/wallWoodHalf.obj-e88293bdf93d07d2ba7f74f2f004529a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodHalf.obj-e88293bdf93d07d2ba7f74f2f004529a.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWoodHalf.obj"
+dest_files=["res://.godot/imported/wallWoodHalf.obj-e88293bdf93d07d2ba7f74f2f004529a.mesh", "res://.godot/imported/wallWoodHalf.obj-e88293bdf93d07d2ba7f74f2f004529a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

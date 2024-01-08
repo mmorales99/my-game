@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c15b0iq4rd0eb"
+path="res://.godot/imported/wallWoodDoor.obj-620545fb9e5a099e7add92dad46388da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodDoor.obj-620545fb9e5a099e7add92dad46388da.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWoodDoor.obj"
+dest_files=["res://.godot/imported/wallWoodDoor.obj-620545fb9e5a099e7add92dad46388da.mesh", "res://.godot/imported/wallWoodDoor.obj-620545fb9e5a099e7add92dad46388da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

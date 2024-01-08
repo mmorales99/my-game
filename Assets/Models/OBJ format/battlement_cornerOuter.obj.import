@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxfuc3v2alwvp"
+path="res://.godot/imported/battlement_cornerOuter.obj-676d404d4b27b7920d0d2362ee43c5f5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/battlement_cornerOuter.obj-676d404d4b27b7920d0d2362ee43c5f5.mesh"]
+
+source_file="res://Assets/Models/OBJ format/battlement_cornerOuter.obj"
+dest_files=["res://.godot/imported/battlement_cornerOuter.obj-676d404d4b27b7920d0d2362ee43c5f5.mesh", "res://.godot/imported/battlement_cornerOuter.obj-676d404d4b27b7920d0d2362ee43c5f5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

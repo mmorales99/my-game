@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://7oj8ddsnhple"]
+
+[ext_resource type="Texture2D" uid="uid://nqaurdd5kmyy" path="res://textures/877.jpg" id="1_ic8nv"]
+
+[resource]
+shading_mode = 2
+albedo_color = Color(0.282353, 0.239216, 0.239216, 1)
+albedo_texture = ExtResource("1_ic8nv")
+uv1_scale = Vector3(100, 0, 100)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 0.637284
+texture_filter = 0

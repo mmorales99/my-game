@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dydhnbfw8llyu"
+path="res://.godot/imported/chimneyTop.obj-6f342b0a1f4aea61d435b30ef4fe910d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chimneyTop.obj-6f342b0a1f4aea61d435b30ef4fe910d.mesh"]
+
+source_file="res://Assets/Models/OBJ format/chimneyTop.obj"
+dest_files=["res://.godot/imported/chimneyTop.obj-6f342b0a1f4aea61d435b30ef4fe910d.mesh", "res://.godot/imported/chimneyTop.obj-6f342b0a1f4aea61d435b30ef4fe910d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

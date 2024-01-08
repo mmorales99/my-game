@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkqpf4ewjl7lc"
+path="res://.godot/imported/wallWoodWindowShutters.obj-9293240d8c5ca7e70bcb34159ab5c53c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodWindowShutters.obj-9293240d8c5ca7e70bcb34159ab5c53c.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWoodWindowShutters.obj"
+dest_files=["res://.godot/imported/wallWoodWindowShutters.obj-9293240d8c5ca7e70bcb34159ab5c53c.mesh", "res://.godot/imported/wallWoodWindowShutters.obj-9293240d8c5ca7e70bcb34159ab5c53c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cba0gqq3ka3ps"
+path="res://.godot/imported/log_stackLarge.obj-e8cd6b5a9f28d0a06edece4c7db8d366.mesh"
+
+[deps]
+
+files=["res://.godot/imported/log_stackLarge.obj-e8cd6b5a9f28d0a06edece4c7db8d366.mesh"]
+
+source_file="res://Assets/Models/OBJ format/log_stackLarge.obj"
+dest_files=["res://.godot/imported/log_stackLarge.obj-e8cd6b5a9f28d0a06edece4c7db8d366.mesh", "res://.godot/imported/log_stackLarge.obj-e8cd6b5a9f28d0a06edece4c7db8d366.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

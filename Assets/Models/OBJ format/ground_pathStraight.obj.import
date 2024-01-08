@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btdcpir7jiysx"
+path="res://.godot/imported/ground_pathStraight.obj-9736457ff9121f925a5afe4d7f35c836.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_pathStraight.obj-9736457ff9121f925a5afe4d7f35c836.mesh"]
+
+source_file="res://Assets/Models/OBJ format/ground_pathStraight.obj"
+dest_files=["res://.godot/imported/ground_pathStraight.obj-9736457ff9121f925a5afe4d7f35c836.mesh", "res://.godot/imported/ground_pathStraight.obj-9736457ff9121f925a5afe4d7f35c836.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

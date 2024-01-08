@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://du2l6jljjn6oc"
+path="res://.godot/imported/bridge_stoneRoundNarrow.obj-24e2fd2f6f62890b6e5a5b53a9daa094.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge_stoneRoundNarrow.obj-24e2fd2f6f62890b6e5a5b53a9daa094.mesh"]
+
+source_file="res://Assets/Models/OBJ format/bridge_stoneRoundNarrow.obj"
+dest_files=["res://.godot/imported/bridge_stoneRoundNarrow.obj-24e2fd2f6f62890b6e5a5b53a9daa094.mesh", "res://.godot/imported/bridge_stoneRoundNarrow.obj-24e2fd2f6f62890b6e5a5b53a9daa094.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

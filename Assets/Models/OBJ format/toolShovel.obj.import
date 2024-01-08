@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bk2k17n8dtfn5"
+path="res://.godot/imported/toolShovel.obj-923d0427a2735ba4baf7bbdfe3d31d6f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/toolShovel.obj-923d0427a2735ba4baf7bbdfe3d31d6f.mesh"]
+
+source_file="res://Assets/Models/OBJ format/toolShovel.obj"
+dest_files=["res://.godot/imported/toolShovel.obj-923d0427a2735ba4baf7bbdfe3d31d6f.mesh", "res://.godot/imported/toolShovel.obj-923d0427a2735ba4baf7bbdfe3d31d6f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

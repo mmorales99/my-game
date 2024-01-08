@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p02bpmyfhy1s"
+path="res://.godot/imported/Grey_Border_Wall_01.obj-b81ee1421a1634e0a7154ae209d0f40c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Border_Wall_01.obj-b81ee1421a1634e0a7154ae209d0f40c.mesh"]
+
+source_file="res://Assets/Models/Grey_Border_Wall_01.obj"
+dest_files=["res://.godot/imported/Grey_Border_Wall_01.obj-b81ee1421a1634e0a7154ae209d0f40c.mesh", "res://.godot/imported/Grey_Border_Wall_01.obj-b81ee1421a1634e0a7154ae209d0f40c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

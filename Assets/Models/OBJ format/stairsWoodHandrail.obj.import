@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dby0m3dwg0hbk"
+path="res://.godot/imported/stairsWoodHandrail.obj-36eb2723caaf6849a6724fb86732239d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairsWoodHandrail.obj-36eb2723caaf6849a6724fb86732239d.mesh"]
+
+source_file="res://Assets/Models/OBJ format/stairsWoodHandrail.obj"
+dest_files=["res://.godot/imported/stairsWoodHandrail.obj-36eb2723caaf6849a6724fb86732239d.mesh", "res://.godot/imported/stairsWoodHandrail.obj-36eb2723caaf6849a6724fb86732239d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

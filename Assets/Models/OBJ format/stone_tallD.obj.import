@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dl1c37r6ifeo6"
+path="res://.godot/imported/stone_tallD.obj-84c1cc88d127b4e2d6c5115d8210989c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stone_tallD.obj-84c1cc88d127b4e2d6c5115d8210989c.mesh"]
+
+source_file="res://Assets/Models/OBJ format/stone_tallD.obj"
+dest_files=["res://.godot/imported/stone_tallD.obj-84c1cc88d127b4e2d6c5115d8210989c.mesh", "res://.godot/imported/stone_tallD.obj-84c1cc88d127b4e2d6c5115d8210989c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

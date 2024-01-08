@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://bi0wweuqst4tt"]
+
+[ext_resource type="Texture2D" uid="uid://ccvf3crpe2rbe" path="res://Assets/877.jpg" id="1_7uog3"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_nnrf4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m6kv3"]
+albedo_color = Color(0.341176, 0.270588, 0.137255, 1)
+albedo_texture = ExtResource("1_7uog3")
+uv1_scale = Vector3(100, 1, 100)
+uv1_triplanar = true
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_d3wql"]
+data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
+
+[node name="Soil" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 1, 0, 0, 0, 100, 0.0109638, 0, 0)
+mesh = SubResource("PlaneMesh_nnrf4")
+surface_material_override/0 = SubResource("StandardMaterial3D_m6kv3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_d3wql")

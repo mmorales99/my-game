@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://h8m2abanycl5"
+path="res://.godot/imported/Wood_Railing_01.obj-988f44580d0d8f057e954a2e416d8340.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Railing_01.obj-988f44580d0d8f057e954a2e416d8340.mesh"]
+
+source_file="res://Assets/Models/Wood_Railing_01.obj"
+dest_files=["res://.godot/imported/Wood_Railing_01.obj-988f44580d0d8f057e954a2e416d8340.mesh", "res://.godot/imported/Wood_Railing_01.obj-988f44580d0d8f057e954a2e416d8340.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

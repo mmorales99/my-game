@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cok254rctp2gr"
+path="res://.godot/imported/wallBroken.obj-2352254049d5cc29a80843fc10c80943.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallBroken.obj-2352254049d5cc29a80843fc10c80943.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallBroken.obj"
+dest_files=["res://.godot/imported/wallBroken.obj-2352254049d5cc29a80843fc10c80943.mesh", "res://.godot/imported/wallBroken.obj-2352254049d5cc29a80843fc10c80943.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

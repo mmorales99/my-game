@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rc0guce0qtv6"
+path="res://.godot/imported/wallNarrow.obj-6d234b0a6d58a1aa55c1d3b157d1af55.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallNarrow.obj-6d234b0a6d58a1aa55c1d3b157d1af55.mesh"]
+
+source_file="res://Assets/Models/wallNarrow.obj"
+dest_files=["res://.godot/imported/wallNarrow.obj-6d234b0a6d58a1aa55c1d3b157d1af55.mesh", "res://.godot/imported/wallNarrow.obj-6d234b0a6d58a1aa55c1d3b157d1af55.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

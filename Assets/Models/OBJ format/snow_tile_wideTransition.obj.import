@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt1edw22ta75i"
+path="res://.godot/imported/snow_tile_wideTransition.obj-84f59d31e26f6e3b4fc022adc9502746.mesh"
+
+[deps]
+
+files=["res://.godot/imported/snow_tile_wideTransition.obj-84f59d31e26f6e3b4fc022adc9502746.mesh"]
+
+source_file="res://Assets/Models/OBJ format/snow_tile_wideTransition.obj"
+dest_files=["res://.godot/imported/snow_tile_wideTransition.obj-84f59d31e26f6e3b4fc022adc9502746.mesh", "res://.godot/imported/snow_tile_wideTransition.obj-84f59d31e26f6e3b4fc022adc9502746.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://das34odxva5qi"
+path="res://.godot/imported/planksOpening.obj-6894a716e98fb854a94f5a81bea0fea1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/planksOpening.obj-6894a716e98fb854a94f5a81bea0fea1.mesh"]
+
+source_file="res://Assets/Models/OBJ format/planksOpening.obj"
+dest_files=["res://.godot/imported/planksOpening.obj-6894a716e98fb854a94f5a81bea0fea1.mesh", "res://.godot/imported/planksOpening.obj-6894a716e98fb854a94f5a81bea0fea1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

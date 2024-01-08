@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dp63fk6oakw2b"
+path="res://.godot/imported/wallWoodCorner.obj-1b63a5dd0e0c9c264dd36c14f4205cf7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodCorner.obj-1b63a5dd0e0c9c264dd36c14f4205cf7.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWoodCorner.obj"
+dest_files=["res://.godot/imported/wallWoodCorner.obj-1b63a5dd0e0c9c264dd36c14f4205cf7.mesh", "res://.godot/imported/wallWoodCorner.obj-1b63a5dd0e0c9c264dd36c14f4205cf7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jt4le1fsuvxe"
+path="res://.godot/imported/shovel-dirt.obj-c052099389315e9afa9543a2be4e01ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shovel-dirt.obj-c052099389315e9afa9543a2be4e01ad.mesh"]
+
+source_file="res://Assets/Models/OBJ format/shovel-dirt.obj"
+dest_files=["res://.godot/imported/shovel-dirt.obj-c052099389315e9afa9543a2be4e01ad.mesh", "res://.godot/imported/shovel-dirt.obj-c052099389315e9afa9543a2be4e01ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

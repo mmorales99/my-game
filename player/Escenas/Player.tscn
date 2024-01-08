@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3ivfi23bu34w"]
+
+[ext_resource type="Script" path="res://player/Scripts/Player.gd" id="1_6i34i"]
+[ext_resource type="Material" uid="uid://cir76juokg848" path="res://materials/material1.tres" id="1_m32ds"]
+[ext_resource type="Script" path="res://player/Scripts/ComabatCamera.gd" id="2_dxx85"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_w6wwl"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_rk1qu"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_6i34i")
+
+[node name="CollisionBox" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_w6wwl")
+
+[node name="Control" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.855102, 1.9083)
+current = true
+fov = 120.0
+near = 0.001
+script = ExtResource("2_dxx85")
+
+[node name="Model" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Model"]
+material_override = ExtResource("1_m32ds")
+mesh = SubResource("CapsuleMesh_rk1qu")

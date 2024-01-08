@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgc6lrf4letil"
+path="res://.godot/imported/wallWood.obj-9a8be744d4b5ce9a62c492190c7f70bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWood.obj-9a8be744d4b5ce9a62c492190c7f70bd.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWood.obj"
+dest_files=["res://.godot/imported/wallWood.obj-9a8be744d4b5ce9a62c492190c7f70bd.mesh", "res://.godot/imported/wallWood.obj-9a8be744d4b5ce9a62c492190c7f70bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

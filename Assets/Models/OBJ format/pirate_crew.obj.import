@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbsr0owr8lhfj"
+path="res://.godot/imported/pirate_crew.obj-485cd3eb2c7d348ca69cc30a6468fef1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pirate_crew.obj-485cd3eb2c7d348ca69cc30a6468fef1.mesh"]
+
+source_file="res://Assets/Models/OBJ format/pirate_crew.obj"
+dest_files=["res://.godot/imported/pirate_crew.obj-485cd3eb2c7d348ca69cc30a6468fef1.mesh", "res://.godot/imported/pirate_crew.obj-485cd3eb2c7d348ca69cc30a6468fef1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

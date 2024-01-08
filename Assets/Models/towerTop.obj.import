@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgxex75d6lx4d"
+path="res://.godot/imported/towerTop.obj-c660695cae0ddf727f4e6b0923ec4ebb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/towerTop.obj-c660695cae0ddf727f4e6b0923ec4ebb.mesh"]
+
+source_file="res://Assets/Models/towerTop.obj"
+dest_files=["res://.godot/imported/towerTop.obj-c660695cae0ddf727f4e6b0923ec4ebb.mesh", "res://.godot/imported/towerTop.obj-c660695cae0ddf727f4e6b0923ec4ebb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

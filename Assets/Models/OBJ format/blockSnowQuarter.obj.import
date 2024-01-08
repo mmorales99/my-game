@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pqtb15vmcyg6"
+path="res://.godot/imported/blockSnowQuarter.obj-f5641f2112c0713e98c16f9c35642b34.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowQuarter.obj-f5641f2112c0713e98c16f9c35642b34.mesh"]
+
+source_file="res://Assets/Models/OBJ format/blockSnowQuarter.obj"
+dest_files=["res://.godot/imported/blockSnowQuarter.obj-f5641f2112c0713e98c16f9c35642b34.mesh", "res://.godot/imported/blockSnowQuarter.obj-f5641f2112c0713e98c16f9c35642b34.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

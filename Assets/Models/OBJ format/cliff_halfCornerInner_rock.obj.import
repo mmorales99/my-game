@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bd5o2wl6mwk24"
+path="res://.godot/imported/cliff_halfCornerInner_rock.obj-4894100e4024c20ec889950f2b4c545a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cliff_halfCornerInner_rock.obj-4894100e4024c20ec889950f2b4c545a.mesh"]
+
+source_file="res://Assets/Models/OBJ format/cliff_halfCornerInner_rock.obj"
+dest_files=["res://.godot/imported/cliff_halfCornerInner_rock.obj-4894100e4024c20ec889950f2b4c545a.mesh", "res://.godot/imported/cliff_halfCornerInner_rock.obj-4894100e4024c20ec889950f2b4c545a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

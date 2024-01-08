@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkx5wkqtijaxb"
+path="res://.godot/imported/Roof_Point_Red_01.obj-c67b75dedafb55838980cc6aac603327.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Point_Red_01.obj-c67b75dedafb55838980cc6aac603327.mesh"]
+
+source_file="res://Assets/Models/Roof_Point_Red_01.obj"
+dest_files=["res://.godot/imported/Roof_Point_Red_01.obj-c67b75dedafb55838980cc6aac603327.mesh", "res://.godot/imported/Roof_Point_Red_01.obj-c67b75dedafb55838980cc6aac603327.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

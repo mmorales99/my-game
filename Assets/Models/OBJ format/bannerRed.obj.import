@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1t170kqtpw4c"
+path="res://.godot/imported/bannerRed.obj-9dd5c26841d8643e705d873d987f04bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bannerRed.obj-9dd5c26841d8643e705d873d987f04bc.mesh"]
+
+source_file="res://Assets/Models/OBJ format/bannerRed.obj"
+dest_files=["res://.godot/imported/bannerRed.obj-9dd5c26841d8643e705d873d987f04bc.mesh", "res://.godot/imported/bannerRed.obj-9dd5c26841d8643e705d873d987f04bc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

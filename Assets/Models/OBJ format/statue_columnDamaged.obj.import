@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ci3fxpt2e1ms"
+path="res://.godot/imported/statue_columnDamaged.obj-e25b7ef3bb9a4df5da925bddca57a8fa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/statue_columnDamaged.obj-e25b7ef3bb9a4df5da925bddca57a8fa.mesh"]
+
+source_file="res://Assets/Models/OBJ format/statue_columnDamaged.obj"
+dest_files=["res://.godot/imported/statue_columnDamaged.obj-e25b7ef3bb9a4df5da925bddca57a8fa.mesh", "res://.godot/imported/statue_columnDamaged.obj-e25b7ef3bb9a4df5da925bddca57a8fa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

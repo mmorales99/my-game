@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d1vf2qr8lox2t"
+path="res://.godot/imported/wallWoodWindowGlass.obj-d1a87442270b5b0c006df636abad9327.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodWindowGlass.obj-d1a87442270b5b0c006df636abad9327.mesh"]
+
+source_file="res://Assets/Models/OBJ format/wallWoodWindowGlass.obj"
+dest_files=["res://.godot/imported/wallWoodWindowGlass.obj-d1a87442270b5b0c006df636abad9327.mesh", "res://.godot/imported/wallWoodWindowGlass.obj-d1a87442270b5b0c006df636abad9327.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

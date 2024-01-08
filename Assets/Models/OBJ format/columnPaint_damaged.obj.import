@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://x7ax4wvn1aib"
+path="res://.godot/imported/columnPaint_damaged.obj-87010e8320eb25196ebc9ce0aaf9a343.mesh"
+
+[deps]
+
+files=["res://.godot/imported/columnPaint_damaged.obj-87010e8320eb25196ebc9ce0aaf9a343.mesh"]
+
+source_file="res://Assets/Models/OBJ format/columnPaint_damaged.obj"
+dest_files=["res://.godot/imported/columnPaint_damaged.obj-87010e8320eb25196ebc9ce0aaf9a343.mesh", "res://.godot/imported/columnPaint_damaged.obj-87010e8320eb25196ebc9ce0aaf9a343.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

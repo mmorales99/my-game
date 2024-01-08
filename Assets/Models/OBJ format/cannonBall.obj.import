@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctkxbcskfn2fa"
+path="res://.godot/imported/cannonBall.obj-a46d5415649df286ae4c857ccfc2c7ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cannonBall.obj-a46d5415649df286ae4c857ccfc2c7ba.mesh"]
+
+source_file="res://Assets/Models/OBJ format/cannonBall.obj"
+dest_files=["res://.godot/imported/cannonBall.obj-a46d5415649df286ae4c857ccfc2c7ba.mesh", "res://.godot/imported/cannonBall.obj-a46d5415649df286ae4c857ccfc2c7ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

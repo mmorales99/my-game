@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bs6wkqa4r28v0"
+path="res://.godot/imported/grassLarge.obj-c3bbde58e18b2dababf33c3dc7b7d047.mesh"
+
+[deps]
+
+files=["res://.godot/imported/grassLarge.obj-c3bbde58e18b2dababf33c3dc7b7d047.mesh"]
+
+source_file="res://Assets/Models/OBJ format/grassLarge.obj"
+dest_files=["res://.godot/imported/grassLarge.obj-c3bbde58e18b2dababf33c3dc7b7d047.mesh", "res://.godot/imported/grassLarge.obj-c3bbde58e18b2dababf33c3dc7b7d047.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

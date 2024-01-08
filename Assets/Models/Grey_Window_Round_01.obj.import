@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b3poitg2pvrmv"
+path="res://.godot/imported/Grey_Window_Round_01.obj-2839229d4c7e792277f1ce607a5e1e9b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Window_Round_01.obj-2839229d4c7e792277f1ce607a5e1e9b.mesh"]
+
+source_file="res://Assets/Models/Grey_Window_Round_01.obj"
+dest_files=["res://.godot/imported/Grey_Window_Round_01.obj-2839229d4c7e792277f1ce607a5e1e9b.mesh", "res://.godot/imported/Grey_Window_Round_01.obj-2839229d4c7e792277f1ce607a5e1e9b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

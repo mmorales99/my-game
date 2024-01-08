@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vstteygugfhk"
+path="res://.godot/imported/Wood_Window_Round_Long_01.obj-007d4159abcc3d815ef42f6ff7fc15f2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Window_Round_Long_01.obj-007d4159abcc3d815ef42f6ff7fc15f2.mesh"]
+
+source_file="res://Assets/Models/Wood_Window_Round_Long_01.obj"
+dest_files=["res://.godot/imported/Wood_Window_Round_Long_01.obj-007d4159abcc3d815ef42f6ff7fc15f2.mesh", "res://.godot/imported/Wood_Window_Round_Long_01.obj-007d4159abcc3d815ef42f6ff7fc15f2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

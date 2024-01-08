@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3vgh3xrvp6if"
+path="res://.godot/imported/weapon_catapult.obj-a0554237f403db860060d8927705651f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/weapon_catapult.obj-a0554237f403db860060d8927705651f.mesh"]
+
+source_file="res://Assets/Models/OBJ format/weapon_catapult.obj"
+dest_files=["res://.godot/imported/weapon_catapult.obj-a0554237f403db860060d8927705651f.mesh", "res://.godot/imported/weapon_catapult.obj-a0554237f403db860060d8927705651f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckvc2x1f41la7"
+path="res://.godot/imported/blockSlopeHalf.obj-b12a1e13a1bc8a43f080d84c89a00fea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSlopeHalf.obj-b12a1e13a1bc8a43f080d84c89a00fea.mesh"]
+
+source_file="res://Assets/Models/OBJ format/blockSlopeHalf.obj"
+dest_files=["res://.godot/imported/blockSlopeHalf.obj-b12a1e13a1bc8a43f080d84c89a00fea.mesh", "res://.godot/imported/blockSlopeHalf.obj-b12a1e13a1bc8a43f080d84c89a00fea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

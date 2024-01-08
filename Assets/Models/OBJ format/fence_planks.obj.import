@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://baiynl2ts23k4"
+path="res://.godot/imported/fence_planks.obj-50ffb265075f98db010a7b0ac9fea744.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_planks.obj-50ffb265075f98db010a7b0ac9fea744.mesh"]
+
+source_file="res://Assets/Models/OBJ format/fence_planks.obj"
+dest_files=["res://.godot/imported/fence_planks.obj-50ffb265075f98db010a7b0ac9fea744.mesh", "res://.godot/imported/fence_planks.obj-50ffb265075f98db010a7b0ac9fea744.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

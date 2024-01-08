@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://byuh16yahfbhj"
+path="res://.godot/imported/doorClosed.obj-351bfcabdb3dfdb00674de437d1abead.mesh"
+
+[deps]
+
+files=["res://.godot/imported/doorClosed.obj-351bfcabdb3dfdb00674de437d1abead.mesh"]
+
+source_file="res://Assets/Models/OBJ format/doorClosed.obj"
+dest_files=["res://.godot/imported/doorClosed.obj-351bfcabdb3dfdb00674de437d1abead.mesh", "res://.godot/imported/doorClosed.obj-351bfcabdb3dfdb00674de437d1abead.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

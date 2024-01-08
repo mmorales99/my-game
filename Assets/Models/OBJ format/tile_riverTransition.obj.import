@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://h2k45audkes0"
+path="res://.godot/imported/tile_riverTransition.obj-3def33531cb3396e592a43634c331aea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_riverTransition.obj-3def33531cb3396e592a43634c331aea.mesh"]
+
+source_file="res://Assets/Models/OBJ format/tile_riverTransition.obj"
+dest_files=["res://.godot/imported/tile_riverTransition.obj-3def33531cb3396e592a43634c331aea.mesh", "res://.godot/imported/tile_riverTransition.obj-3def33531cb3396e592a43634c331aea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

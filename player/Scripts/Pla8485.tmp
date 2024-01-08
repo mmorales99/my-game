@@ -1,0 +1,14 @@
+class_name MainPlayer extends CharacterBody3D
+
+var Status = load("res://player/Scripts/Status.gd")
+
+var status: Status
+
+func _init():
+	status = Status.new(1,1,1,1)
+
+func _ready():
+	pass
+	
+func _process(delta):
+	var input = Input.get_action_strength("ui_up")

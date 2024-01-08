@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs7f5k2c80xpd"
+path="res://.godot/imported/blockCurveHalf.obj-4c53e402f2f619c83df75907a66279b5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockCurveHalf.obj-4c53e402f2f619c83df75907a66279b5.mesh"]
+
+source_file="res://Assets/Models/OBJ format/blockCurveHalf.obj"
+dest_files=["res://.godot/imported/blockCurveHalf.obj-4c53e402f2f619c83df75907a66279b5.mesh", "res://.godot/imported/blockCurveHalf.obj-4c53e402f2f619c83df75907a66279b5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cc6wirv8it2sr"
+path="res://.godot/imported/ladderLong.obj-d72665d17b2c05db112791fe552ed186.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ladderLong.obj-d72665d17b2c05db112791fe552ed186.mesh"]
+
+source_file="res://Assets/Models/OBJ format/ladderLong.obj"
+dest_files=["res://.godot/imported/ladderLong.obj-d72665d17b2c05db112791fe552ed186.mesh", "res://.godot/imported/ladderLong.obj-d72665d17b2c05db112791fe552ed186.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

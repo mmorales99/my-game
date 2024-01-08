@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crrkcio6r1a41"
+path="res://.godot/imported/floor_stepsCornerInner.obj-aea85553ddeb4372bf2b8f60a5c70374.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_stepsCornerInner.obj-aea85553ddeb4372bf2b8f60a5c70374.mesh"]
+
+source_file="res://Assets/Models/OBJ format/floor_stepsCornerInner.obj"
+dest_files=["res://.godot/imported/floor_stepsCornerInner.obj-aea85553ddeb4372bf2b8f60a5c70374.mesh", "res://.godot/imported/floor_stepsCornerInner.obj-aea85553ddeb4372bf2b8f60a5c70374.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

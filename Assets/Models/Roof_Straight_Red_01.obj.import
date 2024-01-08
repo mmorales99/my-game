@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ds7snio57qcss"
+path="res://.godot/imported/Roof_Straight_Red_01.obj-b6d2dd20cb7e4a7605178f87d58f9c41.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Straight_Red_01.obj-b6d2dd20cb7e4a7605178f87d58f9c41.mesh"]
+
+source_file="res://Assets/Models/Roof_Straight_Red_01.obj"
+dest_files=["res://.godot/imported/Roof_Straight_Red_01.obj-b6d2dd20cb7e4a7605178f87d58f9c41.mesh", "res://.godot/imported/Roof_Straight_Red_01.obj-b6d2dd20cb7e4a7605178f87d58f9c41.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

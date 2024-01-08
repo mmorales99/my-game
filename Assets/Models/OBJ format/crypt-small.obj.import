@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpvmnao0dpoha"
+path="res://.godot/imported/crypt-small.obj-d8ca63a32eb797e36f3482679ba110cb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crypt-small.obj-d8ca63a32eb797e36f3482679ba110cb.mesh"]
+
+source_file="res://Assets/Models/OBJ format/crypt-small.obj"
+dest_files=["res://.godot/imported/crypt-small.obj-d8ca63a32eb797e36f3482679ba110cb.mesh", "res://.godot/imported/crypt-small.obj-d8ca63a32eb797e36f3482679ba110cb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

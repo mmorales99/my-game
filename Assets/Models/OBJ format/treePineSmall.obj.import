@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvk5752lr0e47"
+path="res://.godot/imported/treePineSmall.obj-a481e4727f7fa745df6aca682d5edab2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/treePineSmall.obj-a481e4727f7fa745df6aca682d5edab2.mesh"]
+
+source_file="res://Assets/Models/OBJ format/treePineSmall.obj"
+dest_files=["res://.godot/imported/treePineSmall.obj-a481e4727f7fa745df6aca682d5edab2.mesh", "res://.godot/imported/treePineSmall.obj-a481e4727f7fa745df6aca682d5edab2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

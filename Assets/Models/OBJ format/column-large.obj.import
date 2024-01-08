@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://balensukxavfj"
+path="res://.godot/imported/column-large.obj-812341e436c73193db522362a501ea1d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/column-large.obj-812341e436c73193db522362a501ea1d.mesh"]
+
+source_file="res://Assets/Models/OBJ format/column-large.obj"
+dest_files=["res://.godot/imported/column-large.obj-812341e436c73193db522362a501ea1d.mesh", "res://.godot/imported/column-large.obj-812341e436c73193db522362a501ea1d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

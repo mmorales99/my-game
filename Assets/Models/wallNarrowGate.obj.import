@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqsuvuw25p2ch"
+path="res://.godot/imported/wallNarrowGate.obj-d9e6a5ee2495a09bafb92d28120b8353.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallNarrowGate.obj-d9e6a5ee2495a09bafb92d28120b8353.mesh"]
+
+source_file="res://Assets/Models/wallNarrowGate.obj"
+dest_files=["res://.godot/imported/wallNarrowGate.obj-d9e6a5ee2495a09bafb92d28120b8353.mesh", "res://.godot/imported/wallNarrowGate.obj-d9e6a5ee2495a09bafb92d28120b8353.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

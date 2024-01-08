@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvplcsoctji7j"
+path="res://.godot/imported/floor_steps.obj-612cb07ab46855534433a6cf1d8ad8ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_steps.obj-612cb07ab46855534433a6cf1d8ad8ce.mesh"]
+
+source_file="res://Assets/Models/OBJ format/floor_steps.obj"
+dest_files=["res://.godot/imported/floor_steps.obj-612cb07ab46855534433a6cf1d8ad8ce.mesh", "res://.godot/imported/floor_steps.obj-612cb07ab46855534433a6cf1d8ad8ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

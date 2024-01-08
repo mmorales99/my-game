@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhgqy07mwufw3"
+path="res://.godot/imported/wallPillar.obj-6b3cb6711f307267b0e52c1f67bd84c9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallPillar.obj-6b3cb6711f307267b0e52c1f67bd84c9.mesh"]
+
+source_file="res://Assets/Models/wallPillar.obj"
+dest_files=["res://.godot/imported/wallPillar.obj-6b3cb6711f307267b0e52c1f67bd84c9.mesh", "res://.godot/imported/wallPillar.obj-6b3cb6711f307267b0e52c1f67bd84c9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
