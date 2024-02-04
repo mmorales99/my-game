@@ -1,4 +1,4 @@
-class_name Status
+class_name Status extends Node3D
 
 var EterealEssence = load("res://player/Scripts/Etereal_Essence.gd")
 var Health = load("res://player/Scripts/Health.gd")

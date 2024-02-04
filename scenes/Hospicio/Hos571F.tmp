@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://bw1u36t6moevl"]
+
+[ext_resource type="PackedScene" uid="uid://cq2qva618bicr" path="res://scenes/helpers/Environment.tscn" id="1_xf37f"]
+[ext_resource type="PackedScene" uid="uid://bi0wweuqst4tt" path="res://scenes/helpers/Soil.tscn" id="2_nkkw6"]
+[ext_resource type="PackedScene" uid="uid://c3ivfi23bu34w" path="res://player/Escenas/Player.tscn" id="3_his12"]
+[ext_resource type="ArrayMesh" uid="uid://cly8thtfjykof" path="res://addons/kaykit_dungeon_remastered/Assets/obj/barrier_column.obj" id="4_clijt"]
+[ext_resource type="ArrayMesh" uid="uid://djat8371etgrb" path="res://addons/kaykit_dungeon_remastered/Assets/obj/barrier.obj" id="5_lnykl"]
+
+[node name="Hospicio" type="Node3D"]
+
+[node name="Environment" parent="." instance=ExtResource("1_xf37f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.761043, 0)
+
+[node name="Soil" parent="." instance=ExtResource("2_nkkw6")]
+transform = Transform3D(10000, 0, 0, 0, 1, 0, 0, 0, 10000, 0, 0, 0)
+
+[node name="Soil2" parent="." instance=ExtResource("2_nkkw6")]
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 10, 0, 8.54824, 13.944)
+
+[node name="Soil3" parent="." instance=ExtResource("2_nkkw6")]
+transform = Transform3D(9.65926, 0.258819, 0, -2.58819, 0.965926, 0, 0, 0, 10, 19.6658, 5.96534, 13.944)
+
+[node name="Soil4" parent="." instance=ExtResource("2_nkkw6")]
+transform = Transform3D(9.65926, 0.258819, 0, -2.58819, 0.965926, 0, 0, 0, 10, 38.7201, 0.846382, 13.944)
+
+[node name="Player" parent="." instance=ExtResource("3_his12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.89649, 9.29708)
+
+[node name="GridMap" type="GridMap" parent="."]
+
+[node name="BarrierColumn" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.79532, 0, -5.41224)
+mesh = ExtResource("4_clijt")
+
+[node name="BarrierColumn2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.11491, 0, -9.72581)
+mesh = ExtResource("4_clijt")
+
+[node name="BarrierColumn3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.77858, 0, -1.54995)
+mesh = ExtResource("4_clijt")
+
+[node name="Barrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.31704, 0, -5.1977)
+mesh = ExtResource("5_lnykl")

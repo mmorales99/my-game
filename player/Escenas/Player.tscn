@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://c3ivfi23bu34w"]
+[gd_scene load_steps=7 format=3 uid="uid://c3ivfi23bu34w"]
 
 [ext_resource type="Script" path="res://player/Scripts/Player.gd" id="1_6i34i"]
 [ext_resource type="Material" uid="uid://cir76juokg848" path="res://materials/material1.tres" id="1_m32ds"]
-[ext_resource type="Script" path="res://player/Scripts/ComabatCamera.gd" id="2_dxx85"]
+[ext_resource type="PackedScene" uid="uid://e25qqv44v6mp" path="res://player/CameraSystem/3DPlayerActionCamera.tscn" id="2_e5bgh"]
+[ext_resource type="PackedScene" uid="uid://dookyqoi4pybw" path="res://player/Escenas/player_gui_status.tscn" id="4_wpsdk"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_w6wwl"]
 
@@ -11,20 +12,25 @@
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_6i34i")
 
+[node name="Camera" parent="." node_paths=PackedStringArray("Camera_Anchor") instance=ExtResource("2_e5bgh")]
+Camera_Anchor = NodePath(".")
+
 [node name="CollisionBox" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_w6wwl")
-
-[node name="Control" type="Node3D" parent="."]
-
-[node name="Camera3D" type="Camera3D" parent="Control"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.855102, 1.9083)
-current = true
-fov = 120.0
-near = 0.001
-script = ExtResource("2_dxx85")
 
 [node name="Model" type="Node3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Model"]
 material_override = ExtResource("1_m32ds")
 mesh = SubResource("CapsuleMesh_rk1qu")
+
+[node name="PlayerGUIStatus" parent="." node_paths=PackedStringArray("Current_Player") instance=ExtResource("4_wpsdk")]
+Current_Player = NodePath("..")
+
+[node name="Inventory" type="Node3D" parent="."]
+
+[node name="RunTimer" type="Timer" parent="."]
+wait_time = 0.25
+one_shot = true
+
+[connection signal="timeout" from="RunTimer" to="." method="_on_run_timer_timeout"]

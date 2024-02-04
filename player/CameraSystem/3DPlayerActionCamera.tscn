@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://e25qqv44v6mp"]
+
+[ext_resource type="Script" path="res://player/CameraSystem/3DPlayerActionCamera.gd" id="1_t4e7d"]
+[ext_resource type="Script" path="res://player/CameraSystem/CameraController.gd" id="2_7baka"]
+
+[node name="3DPlayerActionCamera" type="Node3D"]
+script = ExtResource("1_t4e7d")
+
+[node name="cam_anchor" type="SpringArm3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.984808, 0.173648, 0, -0.173648, 0.984808, 0, 0.5, 0)
+spring_length = 2.5
+margin = 0.2
+
+[node name="cam_base" type="Node3D" parent="cam_anchor"]
+
+[node name="Camera3D" type="Camera3D" parent="cam_anchor/cam_base"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.990937, 0.810239)
+current = true
+fov = 90.0
+near = 0.001
+script = ExtResource("2_7baka")

@@ -1,0 +1,174 @@
+[gd_scene load_steps=11 format=3 uid="uid://dookyqoi4pybw"]
+
+[ext_resource type="Script" path="res://player/Scripts/PlayerGUIStatus.gd" id="1_03w3p"]
+[ext_resource type="Script" path="res://player/Scripts/HealthBar.gd" id="2_urvmc"]
+[ext_resource type="Script" path="res://player/Scripts/EssenceBar.gd" id="3_olg4b"]
+[ext_resource type="Script" path="res://player/Scripts/StaminaBar.gd" id="4_mmc4m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2vjch"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5rqin"]
+bg_color = Color(0.682353, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wi0aq"]
+bg_color = Color(0.254902, 0.254902, 0.254902, 0.254902)
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+shadow_color = Color(0, 0, 0, 0.27451)
+shadow_size = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ckqde"]
+bg_color = Color(0.501961, 0.501961, 0.501961, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mko65"]
+bg_color = Color(0.0901961, 0.388235, 0.72549, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3upwf"]
+bg_color = Color(0, 0.580392, 0.160784, 1)
+
+[node name="PlayerGUIStatus" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_03w3p")
+
+[node name="Currencies" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.806
+anchor_top = 0.034
+anchor_right = 0.981
+anchor_bottom = 0.122
+offset_left = 0.487915
+offset_top = -0.0320015
+offset_right = -0.112061
+offset_bottom = -0.0560074
+grow_horizontal = 0
+grow_vertical = 2
+alignment = 1
+
+[node name="CoinCurrency" type="Label" parent="Currencies"]
+layout_mode = 2
+size_flags_horizontal = 8
+text = "00000000000000000000"
+vertical_alignment = 1
+
+[node name="FavorCurrency" type="Label" parent="Currencies"]
+layout_mode = 2
+size_flags_horizontal = 8
+text = "00000000000000000000"
+vertical_alignment = 1
+
+[node name="Status" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 60.0
+offset_bottom = 60.0
+
+[node name="Health" type="ProgressBar" parent="Status"]
+z_index = 1
+layout_mode = 2
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 3.0
+anchor_bottom = 0.75
+offset_left = 70.0
+offset_top = 5.0
+offset_right = 70.0
+offset_bottom = 5.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_2vjch")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5rqin")
+value = 55.0
+rounded = true
+show_percentage = false
+script = ExtResource("2_urvmc")
+
+[node name="DamageBar" type="ProgressBar" parent="Status/Health"]
+z_index = -1
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 10.0
+theme_override_styles/background = SubResource("StyleBoxFlat_wi0aq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ckqde")
+value = 90.0
+rounded = true
+show_percentage = false
+
+[node name="DamageTimer" type="Timer" parent="Status/Health"]
+wait_time = 0.75
+one_shot = true
+
+[node name="Ethereal_essence" type="ProgressBar" parent="Status"]
+z_index = 1
+layout_mode = 2
+offset_left = 90.0
+offset_top = 45.0
+offset_right = 190.0
+offset_bottom = 55.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_2vjch")
+theme_override_styles/fill = SubResource("StyleBoxFlat_mko65")
+value = 55.0
+rounded = true
+show_percentage = false
+script = ExtResource("3_olg4b")
+
+[node name="DamageBar" type="ProgressBar" parent="Status/Ethereal_essence"]
+z_index = -1
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 10.0
+theme_override_styles/background = SubResource("StyleBoxFlat_wi0aq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ckqde")
+value = 90.0
+rounded = true
+show_percentage = false
+
+[node name="DamageTimer" type="Timer" parent="Status/Ethereal_essence"]
+wait_time = 1.5
+one_shot = true
+
+[node name="Stamina" type="ProgressBar" parent="Status"]
+z_index = 1
+layout_mode = 2
+offset_left = 90.0
+offset_top = 65.0
+offset_right = 190.0
+offset_bottom = 75.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_2vjch")
+theme_override_styles/fill = SubResource("StyleBoxFlat_3upwf")
+value = 55.0
+rounded = true
+show_percentage = false
+script = ExtResource("4_mmc4m")
+
+[node name="DamageBar" type="ProgressBar" parent="Status/Stamina"]
+z_index = -1
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 10.0
+theme_override_styles/background = SubResource("StyleBoxFlat_wi0aq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ckqde")
+value = 90.0
+rounded = true
+show_percentage = false
+
+[node name="DamageTimer" type="Timer" parent="Status/Stamina"]
+wait_time = 1.5
+one_shot = true
+
+[node name="ColorRect" type="ColorRect" parent="Status"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 80.0
+offset_bottom = 80.0
+
+[connection signal="timeout" from="Status/Health/DamageTimer" to="Status/Health" method="_on_health_damage_timer_timeout"]
+[connection signal="timeout" from="Status/Ethereal_essence/DamageTimer" to="." method="_on_essence_damage_timer_timeout"]
+[connection signal="timeout" from="Status/Stamina/DamageTimer" to="Status/Stamina" method="_on_stamina_damage_timer_timeout"]
