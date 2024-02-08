@@ -42,7 +42,7 @@ func regen_stamina(delta : float, regen_add: float = 0, regen_mult: float = 0):
 	)
 	
 func spend_stamina(much: float):
-	stamina -= much	
+	stamina = maxf(0, stamina - much)
 	pass
 
 func _init(startAmount: float = 0):

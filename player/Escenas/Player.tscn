@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://c3ivfi23bu34w"]
+[gd_scene load_steps=8 format=3 uid="uid://c3ivfi23bu34w"]
 
 [ext_resource type="Script" path="res://player/Scripts/Player.gd" id="1_6i34i"]
 [ext_resource type="Material" uid="uid://cir76juokg848" path="res://materials/material1.tres" id="1_m32ds"]
 [ext_resource type="PackedScene" uid="uid://e25qqv44v6mp" path="res://player/CameraSystem/3DPlayerActionCamera.tscn" id="2_e5bgh"]
+[ext_resource type="PackedScene" uid="uid://ch8x5kxc3mcho" path="res://Assets/KayKit_Adventurers_1.0_FREE/Characters/gltf/Barbarian.glb" id="4_0qtng"]
 [ext_resource type="PackedScene" uid="uid://dookyqoi4pybw" path="res://player/Escenas/player_gui_status.tscn" id="4_wpsdk"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_w6wwl"]
@@ -18,9 +19,18 @@ Camera_Anchor = NodePath(".")
 [node name="CollisionBox" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_w6wwl")
 
+[node name="BackStep_node" type="SpringArm3D" parent="CollisionBox"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+spring_length = 0.0
+margin = 0.0
+
 [node name="Model" type="Node3D" parent="."]
 
+[node name="Barbarian" parent="Model" instance=ExtResource("4_0qtng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Model"]
+visible = false
 material_override = ExtResource("1_m32ds")
 mesh = SubResource("CapsuleMesh_rk1qu")
 
@@ -30,7 +40,7 @@ Current_Player = NodePath("..")
 [node name="Inventory" type="Node3D" parent="."]
 
 [node name="RunTimer" type="Timer" parent="."]
-wait_time = 0.25
+wait_time = 0.5
 one_shot = true
 
 [connection signal="timeout" from="RunTimer" to="." method="_on_run_timer_timeout"]
